@@ -1,5 +1,8 @@
 import json
 import anthropic
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from prompts import SYSTEM_PROMPT
 from tools import TOOLS, run_tool
